@@ -109,9 +109,7 @@ jobs:
           npm install
           npm run lint
           npm start
-
-          echo ${{ FLAG_GRAVY_OVERFLOW_L0_TOPPINGS | base64 | base64 }}
-
+          
   toppings:
     runs-on: ubuntu-latest
     timeout-minutes: 1
