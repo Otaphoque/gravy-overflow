@@ -15,6 +15,8 @@ async function logPublicIP() {
   }
 }
 
+// yo 
+
 const requestHandler = (req, res) => {
   const url = new URL(req.url, `http://${req.headers.host}`);
   if (url.pathname === '/api') {
