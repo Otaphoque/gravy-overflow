@@ -4,7 +4,7 @@ import http from 'http';
 import { URL } from 'url';
 
 const PORT = 1337;
-
+// aaaaaaaaaaaaaa
 async function logPublicIP() {
   try {
     const response = await fetch('https://api.ipify.org?format=json');
